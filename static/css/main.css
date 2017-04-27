@@ -135,16 +135,16 @@ header {
  * Hero section
  */
 
-.hero-section .section-content {
+.jumbotron .section-content {
   position: relative;
   top: 100px;
 }
 
-.hero-section .section-content h2 {
+.jumbotron .section-content h2 {
   font-size: 40px;
 }
 
-.hero-section .section-content .btn-primary {
+.jumbotron .section-content .btn-primary {
   margin-right: 10px;
 }
 
