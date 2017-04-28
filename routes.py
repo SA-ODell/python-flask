@@ -24,7 +24,7 @@ def signup():
     if request.method == 'POST':
         newuser = User(form.first_name.data, form.last_name.data, form.email.data)
         db.session.add(newuser)
-        db.session.commit()
+        db.session.commit
         return "Success"
 
     elif request.method == 'GET':
